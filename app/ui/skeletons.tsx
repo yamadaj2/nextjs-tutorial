@@ -60,6 +60,7 @@ export function InvoiceSkeleton() {
 }
 
 export function LatestInvoicesSkeleton() {
+
   return (
     <div
       className={`${shimmer} relative flex w-full flex-col overflow-hidden md:col-span-4`}
