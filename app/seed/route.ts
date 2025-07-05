@@ -112,6 +112,8 @@ export async function GET() {
       seedRevenue(),
     ]);
 
+    console.log({ result });
+
     return Response.json({ message: "Database seeded successfully" });
   } catch (error) {
     console.error("Error seeding database:", error);
